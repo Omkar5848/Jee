@@ -1,3 +1,11 @@
 {
-  "users": []
+  "users": [
+    {
+      "id": "e3d8f8d8-ae73-41db-acd4-8847895ef0e2",
+      "name": "omkar",
+      "email": "omkarjore066@gmail.com",
+      "passwordHash": "$2a$10$X/LnkRgwH0JTBzvYXCNEqebxy3RGL7aaEqhBajCsnOey/xClUdry2",
+      "profession": "technician"
+    }
+  ]
 }
