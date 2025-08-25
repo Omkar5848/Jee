@@ -1,15 +1,11 @@
 # Jeevak - Next.js (TS) Fullstack Auth + OTP
 
-## Quick Start
-1. Extract the zip.
-2. Open a terminal in the project folder.
-3. Copy `.env.example` to `.env` and set values (you already provided Gmail and app password).
-4. Install deps:
+ Install deps:
    ```bash
    npm install
    npm run dev
    ```
-5. Open http://localhost:3000
+ Open http://localhost:3000
 
 ## Features
 - Apple ID–style login/register/forgot forms
