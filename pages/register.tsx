@@ -8,7 +8,7 @@ export default function Register() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirm, setConfirm] = useState('');
-  const [profession, setProfession] = useState<'doctor'|'nurse'|'technician'|'receptionist'>('doctor');
+  const [profession, setProfession] = useState<'doctor'|'nurse'|'technician'|'patient'|'admin'|'receptionist'>('doctor');
   const [loading, setLoading] = useState(false);
   const [msg, setMsg] = useState<string|undefined>(undefined);
   const [error, setError] = useState<string|undefined>(undefined);
@@ -44,6 +44,8 @@ export default function Register() {
             <option value="doctor">Doctor</option>
             <option value="nurse">Nurse</option>
             <option value="technician">Technician</option>
+            <option value="patient">Patient</option>
+            <option value="admin">Admin</option>
             <option value="receptionist">Receptionist</option>
           </select>
           <button className={styles.button} disabled={loading}>{loading ? 'Creating...' : 'Register'}</button>
