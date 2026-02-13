@@ -6,7 +6,7 @@ export type User = {
   name: string;
   email: string;
   passwordHash: string;
-  profession: 'doctor'|'nurse'|'technician'|'receptionist';
+  profession: 'doctor'|'nurse'|'technician'|'patient'|'admin'|'receptionist';
 };
 
 type DBShape = { users: User[] };
