@@ -1,0 +1,61 @@
+.container {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  background:#f3f4f6;
+  padding: 24px;
+}
+.card {
+  background:#fff;
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
+  border-radius:24px;
+  padding:28px;
+  width:400px;
+  border: 1px solid #e6e7e9;
+  border-top: 6px solid #248692;
+}
+.logo {
+  font-size:44px;
+  margin:0;
+  font-weight:800;
+  text-align:center;
+  color: #0c2b3f;
+}
+.subtitle {
+  text-align:center;
+  color:#5b6676;
+  margin: 8px 0 16px;
+}
+.button {
+  width:100%;
+  padding:13px 14px;
+  border-radius:14px;
+  border:none;
+  background:#2a8794;
+  color:#fff;
+  font-weight:700;
+  cursor:pointer;
+  margin-top:12px;
+}
+
+.dashboardCard { width: 620px; max-height: 90vh; overflow: auto; }
+.dashboardTitle { text-align: center; margin: 0 0 4px; font-size: 28px; }
+.dashboardSection { margin-top: 14px; border: 1px solid #eceef2; border-radius: 14px; padding: 12px; background: #fafbfe; }
+.dashboardSection h3 { margin: 0 0 10px; color: #1f2f45; }
+.overviewStats { display: grid; gap: 8px; }
+.statTile { border: 1px solid #e3e7ef; background: #fff; border-radius: 12px; padding: 10px 12px; display: flex; flex-direction: column; }
+.statTile span { font-size: 12px; color: #5f6880; }
+.scheduleStack { display: grid; gap: 8px; }
+.scheduleCard { border: 1px solid #e0e6f2; border-radius: 12px; padding: 10px 12px; background: #fff; }
+.scheduleCard h4 { margin: 0 0 4px; color: #1f314f; font-size: 14px; }
+.scheduleCard p { margin: 0; color: #5b6982; font-size: 13px; }
+.scheduleCard span { display: inline-block; margin-top: 8px; background: #edf3ff; color: #2a4d8c; font-size: 12px; border-radius: 999px; padding: 3px 9px; }
+.updatesList { margin: 0; padding-left: 18px; color: #465469; }
+.updatesList li { margin-bottom: 6px; }
+.tableWrap { overflow-x: auto; }
+.themeTable { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #e1e6f0; border-radius: 12px; overflow: hidden; }
+.themeTable thead th { text-align: left; color: #485977; font-size: 12px; padding: 10px; background: #f6f8fc; }
+.themeTable tbody td { padding: 10px; border-top: 1px solid #edf0f6; font-size: 13px; }
+.statusPill { background: #e8f4e8; color: #246a36; border-radius: 999px; padding: 4px 9px; font-size: 11px; font-weight: 600; }
+.loadingText { text-align: center; }
